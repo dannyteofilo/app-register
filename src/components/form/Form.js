@@ -20,7 +20,6 @@ class Form extends Component{
   }
   onSubmit(e){
     e.preventDefault()
-    console.log('listo para gusardar');
     let add={
       name:this.refs.name.getValue(),
       email:this.refs.email.getValue(),
